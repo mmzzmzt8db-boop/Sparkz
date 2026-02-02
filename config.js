@@ -4,7 +4,7 @@ require('dotenv').config();
 module.exports = {
     // Discord Bot Settings
     discord: {
-        token: process.env.DISCORD_TOKEN || 'MTQ2NzQ2NzQ3NjE0ODQyMDYzMA.GvPiHn.A1WfjDw0TABlhMSDkQ1r6-In1TWKZkB-MTXZlg',
+        token: process.env.DISCORD_TOKEN || 'MTQ2NzQ2NzQ3NjE0ODQyMDYzMA.GcOl6P.rUV8K9vARZIHmeOy3hDpCu_jqVqmCi-7J1M-g8',
         clientId: process.env.CLIENT_ID || '1467467476148420630',
         guildId: process.env.GUILD_ID || 1378165587078811821, // Leave null for global commands
     },
