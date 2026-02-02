@@ -4,15 +4,15 @@ require('dotenv').config();
 module.exports = {
     // Discord Bot Settings
     discord: {
-        token: process.env.DISCORD_TOKEN || 'YOUR_DISCORD_BOT_TOKEN_HERE',
-        clientId: process.env.CLIENT_ID || 'YOUR_CLIENT_ID_HERE',
-        guildId: process.env.GUILD_ID || null, // Leave null for global commands
+        token: process.env.DISCORD_TOKEN || 'MTQ2NzQ2NzQ3NjE0ODQyMDYzMA.GvPiHn.A1WfjDw0TABlhMSDkQ1r6-In1TWKZkB-MTXZlg',
+        clientId: process.env.CLIENT_ID || '1467467476148420630',
+        guildId: process.env.GUILD_ID || 1378165587078811821, // Leave null for global commands
     },
 
     // Spotify API Settings
     spotify: {
-        clientId: process.env.SPOTIFY_CLIENT_ID || 'YOUR_SPOTIFY_CLIENT_ID',
-        clientSecret: process.env.SPOTIFY_CLIENT_SECRET || 'YOUR_SPOTIFY_CLIENT_SECRET',
+        clientId: process.env.SPOTIFY_CLIENT_ID || 'd92baed9605a45a39ed7c2a2d960b1c1',
+        clientSecret: process.env.SPOTIFY_CLIENT_SECRET || 'e9b29f6739de4315bc03b6d8a8e93b03',
     },
 
     // Genius API Settings
@@ -28,8 +28,6 @@ module.exports = {
         maxPlaylistSize: 50,
         status: process.env.STATUS || '🎵 Beatra | /play',
         embedColor: process.env.EMBED_COLOR || '#FF6B6B',
-        supportServer: process.env.SUPPORT_SERVER || 'https://discord.gg/ACJQzJuckW',
-        website: process.env.WEBSITE || 'https://beatra.app',
         invite: 'https://discord.com/oauth2/authorize?client_id=' + process.env.CLIENT_ID + '&permissions=8&scope=bot%20applications.commands',
     },
 
